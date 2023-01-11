@@ -12,6 +12,7 @@ package com.arnold.foody.util
         const val QUERY_DIET = "diet"
         const val QUERY_ADD_RECIPE_INFORMATION = "addRecipeInformation"
         const val QUERY_FILL_INGREDIENTS = "fillIngredients"
+        const val QUERY_SEARCH = "query"
 
         //ROOM Database
         const val DATABASE_NAME = "recipes_database"
@@ -27,5 +28,6 @@ package com.arnold.foody.util
         const val PREFERENCES_MEAL_TYPE_ID = "mealTypeId"
         const val PREFERENCES_DIET_TYPE = "dietType"
         const val PREFERENCES_DIET_TYPE_ID = "dietTypeId"
+        const val PREFERENCES_BACk_ONLINE = "backOnline"
     }
 }
